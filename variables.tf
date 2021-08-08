@@ -26,7 +26,7 @@ variable "public_ssh_key" {
 }
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
-  default     = "ami-0cf31d971a3ca20d6"
+  default     = "ami-0c2b8ca1dad447f8a"
 }
 variable "instance_type" {
   description = "type for aws EC2 instance"
@@ -36,3 +36,6 @@ variable "environment_tag" {
   description = "Environment tag"
   default     = "Production"
 }
+variable "instance_name"
+  description = "EC2 Instance Name"
+  default = "Terraform Instance"
