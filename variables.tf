@@ -36,6 +36,7 @@ variable "environment_tag" {
   description = "Environment tag"
   default     = "Production"
 }
-variable "instance_name"
+variable "instance_name" {
   description = "EC2 Instance Name"
   default = "Terraform Instance"
+}
