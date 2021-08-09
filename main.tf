@@ -6,7 +6,7 @@ provider "aws" {
 #resources
 module "vpc" {
   source  = "app.terraform.io/Johns-Org/vpc/aws"
-  version = "0.0.2"
+  version = "0.0.3"
 }
 module "application-instance" {
   source  = "app.terraform.io/Johns-Org/application-instance/aws"
