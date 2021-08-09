@@ -10,5 +10,5 @@ module "vpc" {
 }
 module "application-instance" {
   source  = "app.terraform.io/Johns-Org/application-instance/aws"
-  version = "0.0.5"
+  version = "0.0.6"
 }
